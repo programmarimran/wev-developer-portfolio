@@ -107,21 +107,44 @@ font-size: 45px;
 }
 
 /* main style */
- .main-section{
-  margin: 130px 230px;
-  display: flex;
-  padding: 220px 150px 42px;
-  text-align: center;
-  border: 1px solid #000000;
+main{
+max-width: 1140px;
+margin: 0 auto;
 
+  
+}
+ .main-section{
+  margin-top: 100px;
+  text-align: center;
+  padding: 220px 150px 42px;
+ 
  }
- .owao{
-  /* text-align: justify; */
-  justify-content:start;
+ .semi-section{
+  border: 2px solid  #474747;
+  background-color: #FFFFFF;
  }
-.main-title{
+ .main-title{
 
   font-weight: bold;
   font-size: 35px;
 }
+.about-items{
+  display: flex;
+  justify-content:space-around;
+}
+.about-item{
+
+}
+.about-title{
+  color: #757575;
+  font-size: 20px;
+  font-weight:400;
+}
+.about-description{
+  color: #474747;
+  font-size: 20px;
+  font-weight:700;
+}
+
+  
 
