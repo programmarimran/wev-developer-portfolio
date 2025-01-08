@@ -119,7 +119,7 @@ margin: 0 auto;
   
 }
  .main-section{
-  margin-top: 100px;
+  margin-top: 130px;
   text-align: center;
   padding: 220px 150px 42px;
  
@@ -127,6 +127,7 @@ margin: 0 auto;
  .semi-section{
   border: 2px solid  #474747;
   background-color: #FFFFFF;
+  /* margin: px auto; */
  }
  
 .about-items{
@@ -146,4 +147,14 @@ margin: 0 auto;
   font-size: 20px;
   font-weight:700;
 }
-.2main-section
+.main-section2{
+  text-align: center;
+  margin: 130px auto;
+}
+.main-section3{
+  display:flex;
+  justify-content:space-around;
+  text-align:left;
+  align-items: center;
+  height: 500px;
+}
