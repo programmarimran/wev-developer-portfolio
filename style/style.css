@@ -46,6 +46,11 @@
 .background-color{
   background-color: #FFF8F3;
 }
+.main-title{
+
+  font-weight: bold;
+  font-size: 35px;
+}
 /* nav style */
 nav{
   display: flex;
@@ -123,11 +128,7 @@ margin: 0 auto;
   border: 2px solid  #474747;
   background-color: #FFFFFF;
  }
- .main-title{
-
-  font-weight: bold;
-  font-size: 35px;
-}
+ 
 .about-items{
   display: flex;
   justify-content:space-around;
@@ -145,6 +146,4 @@ margin: 0 auto;
   font-size: 20px;
   font-weight:700;
 }
-
-  
-
+.2main-section
