@@ -1,18 +1,38 @@
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900 */
+*{
+  /* margin: 0; */
+}
 
+
+/* body style */
 .work-sans{
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
+/* header sryle */
+.background-img{
+  background-image: url('/images/header_bg.png'),url('/images/developer.png');
+  background-repeat: no-repeat;
+  background-position: right bottom,left top;
+}
 
 
+.dark-1{
+  color: #181818;
+}
 .dark-2{
   color: #474747;
 }
-
+.dark-3{
+  color: #757575;
+}
+/* sharted style */
+.text-primary{
+  color: #FD6E0A;
+}
 .btn-primary{
   color:#FFFFFF;
   background-color:#FD6E0A;
@@ -20,19 +40,19 @@
   border-radius: 5px;
   font-size: 20px;
   font-weight: 700;
-  /* bottom: unset; */
+  border: none;
 }
+
+.background-color{
+  background-color: #FFF8F3;
+}
+/* nav style */
 nav{
   display: flex;
   align-items:center;
   justify-content: space-between;
-  margin:0 50px;
+  margin:0 200px 0 226px;
 }
-/* sharted title style */
-.text-primary{
-  color: #FD6E0A;
-}
-/* nav style */
 
 .nav-title{
 font-weight: 800;
@@ -48,9 +68,60 @@ nav > ul{
 nav ul li{
 list-style: none;
 margin-right: 51px;
-
-
 }
 nav ul li a{
   text-decoration: none;
 }
+/* benner style */
+
+.benner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 38px 0 226px;
+}
+.benner-content{
+max-width: 700px;
+
+  
+
+}
+
+.benner-title-greeting{
+font-weight: 600;
+font-size: 45px;
+}
+.benner-title{
+  font-weight: 700;
+  font-size: 85;
+}
+.benner-description{
+  font-weight: 400;
+  font-size: 18px;
+
+}
+.benner-profile-pic{
+  width: 584px;
+  height: 676px;
+
+}
+
+/* main style */
+ .main-section{
+  margin: 130px 230px;
+  display: flex;
+  padding: 220px 150px 42px;
+  text-align: center;
+  border: 1px solid #000000;
+
+ }
+ .owao{
+  /* text-align: justify; */
+  justify-content:start;
+ }
+.main-title{
+
+  font-weight: bold;
+  font-size: 35px;
+}
+
