@@ -1,0 +1,50 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.work-sans{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.dark-2{
+  color: #474747;
+}
+
+.btn-primary{
+  color:white;
+  background-color: tomato;
+}
+nav{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  margin:0 50px;
+}
+/* sharted title style */
+.text-primary{
+  color: #FD6E0A;
+}
+/* nav style */
+
+.nav-title{
+font-weight: 800;
+font-size: 45px;
+}
+nav > ul{
+  display: flex;
+  font-weight:400;
+  font-size: 20px;
+  
+}
+nav ul li{
+list-style: none;
+margin-right: 51px;
+
+
+}
+nav ul li a{
+  text-decoration: none;
+}
