@@ -29,6 +29,10 @@
 .dark-3{
   color: #757575;
 }
+hr{
+  /* dark-5 */
+  color: #D1D1D1;
+}
 /* sharted style */
 .text-primary{
   color: #FD6E0A;
@@ -182,9 +186,44 @@ color: #757575;
 font-weight: 400;
 font-size: 16px;
 }
+
+/* resume style main section4 */
 .resume-title{
   color: #181818;
   font-weight: bold;
   font-size: 35px;
   text-align: center;
+}
+.main-section4{
+display: flex;
+margin: 111px auto 50px;
+justify-content: space-between;
+gap: 24px;
+
+}
+.resume-experience{
+
+}
+.title-expi{
+font-weight: bold;
+font-size: 30px;
+}
+.expi-name{
+  font-weight: bold;
+  font-size: 25px;
+}
+.place{
+  font-weight: 600;
+  font-size: 20px;
+}
+.description{
+  font-weight: 400;
+  font-size: 16px;
+}
+button{
+  text-align: center;
+}
+.text-center{
+  text-align: center;
+  margin: 50px auto 113px;
 }
