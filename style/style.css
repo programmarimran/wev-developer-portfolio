@@ -15,10 +15,10 @@
 }
 /* header sryle */
 .background-img{
-  background-image: url('./images/header_bg.png'),url('./images/developer.png');
+  background-image: url(../images/developer.png),url('../images/header_bg.png');
   background-repeat: no-repeat;
-  background-position: right bottom,left top;
-  background-size: cover;
+  background-position:left top,right bottom;
+  /* background-size: cover; */
 }
 
 
