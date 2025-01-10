@@ -1,3 +1,4 @@
+
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900 */
 *{
@@ -17,6 +18,7 @@
   background-image: url('./images/header_bg.png'),url('./images/developer.png');
   background-repeat: no-repeat;
   background-position: right bottom,left top;
+  background-size: cover;
 }
 
 
@@ -83,7 +85,9 @@ nav ul li a{
 }
 /* benner style */
 
+
 .benner{
+ 
   display: flex;
   align-items: center;
   justify-content: space-between;
