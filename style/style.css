@@ -267,7 +267,8 @@ font-size: 30px;
 @media screen and (max-width:576px) {
   nav,
   .benner,
-  nav > ul {
+  nav > ul,
+  .about-items {
     flex-direction: column;
     margin: 0 auto;
   }
@@ -278,6 +279,9 @@ font-size: 30px;
 }
 .background-img{
   background-image: none;
+}
+.main-section {
+  padding: 20px 10px 5px;
 }
   
 }
