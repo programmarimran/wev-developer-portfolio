@@ -268,7 +268,8 @@ font-size: 30px;
   nav,
   .benner,
   nav > ul,
-  .about-items {
+  .about-items,
+  .main-section3 {
     flex-direction: column;
     margin: 0 auto;
   }
