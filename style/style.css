@@ -289,11 +289,13 @@ font-size: 30px;
 .foot-section {
   padding: 20px 10px 5px;
 }
-input[type=submit]{
-  display: flex;
-   justify-content: center;
-   align-items: center;
-  text-align: center;
+.form input[type=text],[type=email]{
+  height: 50px;
 }
+.foot-section .parent img{
+
+}
+input[type=submit]{
+
   
 }
