@@ -259,6 +259,10 @@ font-size: 30px;
   text-align: center;
   align-items: center;
 }
+.fot-icon{
+  display: flex;
+  gap: 30px;
+}
 
 /* media query is start */
 .hide{
@@ -295,10 +299,11 @@ font-size: 30px;
 .form input[type=text],[type=email]{
   height: 50px;
 }
-.foot-section .parent img{
-
+.parent{
+  text-align: center;
 }
-input[type=submit]{
+.fot-icon{
+  justify-content: center;
+}
 
-  
 }
