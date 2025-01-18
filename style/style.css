@@ -116,6 +116,7 @@ font-size: 45px;
 .benner-profile-pic{
   width: 584px;
   height: 676px;
+  transform: scaleX(-1);
 
 }
 
@@ -141,6 +142,7 @@ margin: 0 auto;
 .about-items{
   display: flex;
   justify-content:space-around;
+  flex-wrap: wrap;
 }
 .about-item{
 
@@ -281,6 +283,7 @@ font-size: 30px;
 .benner-profile-pic{
   width: 100%;
   height: 100%;
+  /* transform: rotate() */
 }
 .background-img{
   background-image: none;
